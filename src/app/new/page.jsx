@@ -11,13 +11,13 @@ import NewGenre from '@/components/new/NewGenre'
 import { useRouter } from 'next/navigation'
 
 function Artist({ params }) {
-  const router = useRouter()
+  /* const router = useRouter()
 
-  const [artist, setArtist] = useState([])
+  const [artist, setArtist] = useState([]) */
   const [imgsArtistas, setImgsArtistas] = useState([]);
   const [imgBackground, setImgBackground] = useState([]);
 
-  const handleChange = (e) => {
+  /* const handleChange = (e) => {
     setArtist({ ...artist, [e.target.name]: e.target.value})
   }
 
@@ -25,7 +25,7 @@ function Artist({ params }) {
     e.preventDefault()
 
 
-  }
+  } */
 
   const [] = useState([]);
 
