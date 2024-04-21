@@ -3,7 +3,7 @@ import { IconVinyl } from "@tabler/icons-react";
 
 function Navbar() {
   return (
-    <div className="bg-lime-800 text-white w-100 p-5">
+    <div className="border-lime-500 bg-lime-800 text-white w-100 p-5">
       <header className="flex justify-between items-center">
         <div>
           <Link href={"/"} className="flex text-lime-400 hover:text-lime-600">

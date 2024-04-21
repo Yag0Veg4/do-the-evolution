@@ -5,7 +5,7 @@ import { inter } from '@/app/fonts';
 function Categories() {
   return (
     <section className={inter.className} >
-        <div className="flex font-bold bg-zinc-900 text-lime-400 justify-evenly border-t border-white">
+        <div className="hidden lg:flex font-bold bg-zinc-900 text-lime-400 justify-evenly border-t border-white">
             <Link className='transition duration-200 hover:bg-zinc-700 w-auto h-auto p-5' href='/descubrir'>Descubrir</Link>
             <Link className='transition duration-200 hover:bg-zinc-700 w-auto h-auto p-5' href='/rock'>Rock</Link>
             <Link className='transition duration-200 hover:bg-zinc-700 w-auto h-auto p-5' href='/metal'>Metal</Link>

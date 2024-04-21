@@ -46,3 +46,9 @@ body {
     object-fit: contain;
     filter: drop-shadow(0 0 2px white);
 }
+
+/* @media (max-width: 768px) {
+    .card {
+       background-color: ;
+    }
+} */

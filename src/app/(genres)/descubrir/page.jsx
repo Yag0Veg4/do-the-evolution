@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import { useArtists } from "@/context/ArtistContext";
 import ArtistCard from "@/components/ArtistCard";
 import Categories from "@/components/Categories";
@@ -27,9 +26,9 @@ export default function Discover() {
           explicabo maiores autem libero asperiores!
         </p>
 
-        <div className="grid grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-8 flex-wrap">
           {artists.map((artist) => (
-            <ArtistCard artist={artist} key={artist.id} />
+            <ArtistCard artist={artist} key={artist.id}/>
           ))}
         </div>
       </div>
