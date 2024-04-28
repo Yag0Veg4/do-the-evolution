@@ -8,7 +8,7 @@ import { useState } from 'react'
 import Dnd from '@/components/dragndrop/DnD'
 import FilesViewer from '@/components/viewers/FilesViewer'
 import NewGenre from '@/components/new/NewGenre'
-import { useRouter } from 'next/navigation'
+/* import { useRouter } from 'next/navigation' */
 
 function Artist({ params }) {
   /* const router = useRouter()
@@ -19,21 +19,20 @@ function Artist({ params }) {
 
   /* const handleChange = (e) => {
     setArtist({ ...artist, [e.target.name]: e.target.value})
-  }
+  } */
 
   const handleSubmit = (e) => {
     e.preventDefault()
 
-
-  } */
+  }
 
   const [] = useState([]);
 
   return (
     <div className='bg-zinc-900 text-white'>
       <Categories />
-      <div className={dot.className}><h1 className='mx-40 my-10 text-3xl'>Agregar nuevo artista</h1></div>
-      <form className='flex flex-col mx-40 mb-10 bg-transparent' onSubmit={handleSubmit}>
+      <div className={dot.className}><h1 className='lg:mx-40 my-10 text-3xl'>Agregar nuevo artista</h1></div>
+      <form className='flex flex-col lg:mx-40 lg:mb-10 bg-transparent' onSubmit={handleSubmit}>
         <div className='border flex flex-col '>
           <div className='border-b p-6 text-xl'><label className={dot.className}>Artista</label></div>
           <input type="text" id="" className='bg-transparent border-b p-1' placeholder='Nombre del artista'/>

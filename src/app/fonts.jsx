@@ -1,4 +1,4 @@
-import { Inter, Roboto_Mono, Poppins, DotGothic16, Whisper, Bebas_Neue, Shadows_Into_Light, Beau_Rivage, Righteous, Bodoni_Moda } from "next/font/google";
+import { Inter, Roboto_Mono, Poppins, DotGothic16, Bebas_Neue, Shadows_Into_Light, Righteous, /* Bodoni_Moda, Whisper, Beau_Rivage */ } from "next/font/google";
 
 const inter = Inter({ weight: "400", subsets: ["latin"] });
 const poppins = Poppins({ weight: "400", subsets: ["latin"] });
@@ -11,4 +11,4 @@ const shadows_into_light = Shadows_Into_Light({weight: '400', subsets: ['latin']
 /* const bodoni_moda = Bodoni_Moda({weight: '400', subsets: ['latin']});
 const beau_rivage = Beau_Rivage({weight: '400', subsets: ['latin']}); */
 
-export { inter, poppins, robo_mono, dot, /* whisper, */ bebas, shadows_into_light, righteous, /* bodoni_moda, beau_rivage */ }
+export { inter, poppins, robo_mono, dot, bebas, shadows_into_light, righteous, /* bodoni_moda, beau_rivage, whisper, */ }
