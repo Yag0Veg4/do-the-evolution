@@ -1,37 +1,26 @@
 {
-  "name": "un-melomano-mas",
+  "name": "tmp-rebuild",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint"
   },
   "dependencies": {
-    "@clerk/nextjs": "^4.28.1",
-    "@headlessui/react": "^1.7.17",
-    "@tabler/icons-react": "^2.47.0",
-    "@uploadthing/react": "^6.0.2",
-    "express": "^4.18.2",
-    "mongodb": "^6.3.0",
-    "mongoose": "^8.0.3",
-    "next": "14.0.3",
-    "next-auth": "^4.24.6",
-    "react": "^18",
-    "react-dom": "^18",
-    "svix": "^1.15.0",
-    "sweetalert2": "^11.10.1",
-    "tailwindcss-animate": "^1.0.7",
-    "uploadthing": "^6.1.0"
+    "next": "16.3.5",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
   },
   "devDependencies": {
-    "@types/react": "18.2.45",
-    "autoprefixer": "^10.0.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.3",
-    "postcss": "^8",
-    "prisma": "^5.8.0",
-    "tailwindcss": "^3.3.0"
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.5",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
